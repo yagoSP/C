@@ -38,5 +38,4 @@ main(){
 	getch();
 	return 0;
 }
-	
-	
+//Criado por YagoSP 07/08/2021
