@@ -18,5 +18,5 @@ main(){
 Alteração do código (pitagoras.c).
 Inclusão da biblioteca <math.h>
 Modificado por YagoSP
-22/08/2021 [17:17
+22/08/2021 [17:18]
 */
