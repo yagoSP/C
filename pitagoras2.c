@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <locale.h>
 main(){
 	int ct1, ct2, hipo, x;
 	printf("Cateto 1:\t");
