@@ -14,7 +14,7 @@ int main(){
     sap = si - pm;
     jr = sap * jrc;
     sf = sap + jr;
-    printf("%d\t %f, %f, %f, %f, %f,", f, si, pm, sap, jr, sf);
+    printf("%d\t %f, %f, %f, %f, %f\n", f, si, pm, sap, jr, sf);
     si = sf;
   }
   return 0;
