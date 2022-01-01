@@ -8,10 +8,10 @@ int main(){
   printf("Digite qual ano está acabando:\t");
   scanf("%d", &year);
   for(i=0; i<=year; i++){
-    printf("[%d] Adeus %d!", i, year);
+    printf("[%d] Adeus %d!\n", i, year);
   }
   return 0;
 }
 /* Adeus 2021! 
-Criado por YagoSP // 31/12/2021 21:31
+Criado por YagoSP // 31/12/2021 21:32
 */
