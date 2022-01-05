@@ -1,4 +1,4 @@
-//XXXXXXXXXX 05/01/2022
+
 #include <stdio.h> 
 #include <stdlib.h>
 #include <conio2.h>
@@ -7,11 +7,10 @@ main(){
 	char op, vop;
 	int n1,n2,r0;
 	setlocale(LC_ALL, "Portuguese");
-	vop = '+', '-', '/', '*';
 	printf("Calculadora 1.0\n[Operadores '+' '-' '*' '/']\n\n");
 	printf("Operador:\t");
 	scanf("%c", &op);
-	if(op != vop){
+	if(op != '+' && op != '-' && op != '*' && op != '/'){
 		textbackground(4);
 		textcolor(15);
 		printf("Erro: Operação Inválida!");
