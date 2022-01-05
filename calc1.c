@@ -1,4 +1,3 @@
-
 #include <stdio.h> 
 #include <stdlib.h>
 #include <conio2.h>
@@ -43,4 +42,4 @@ main(){
 		return 0;
 }
 //Criado por YagoSP 19/09/2021 11:56
-			
+//Editado 05/01/2022 12:34
