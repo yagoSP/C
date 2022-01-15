@@ -13,7 +13,7 @@ int main(void){
         
     };
     srand(time(NULL));
-    int i = rand() % 5;
+    int i = rand() % 6;
     
     printf("Quer descobrir um nome [y] || [n]:\t");
     scanf("%c", &ifse);
