@@ -9,8 +9,7 @@ int main(void){
         "Jason",
         "Trujillo",
         "Lars",
-        "Kirk",
-        
+        "Kirk"
     };
     srand(time(NULL));
     int i = rand() % 6;
@@ -19,7 +18,7 @@ int main(void){
     scanf("%c", &ifse);
     if(ifse == 'y' || ifse == 'Y'){
         
-        printf("Voce seria %s", met[i]);
+        printf("Voce seria %s!", met[i]);
         
     }
     else{
