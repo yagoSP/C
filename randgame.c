@@ -27,4 +27,4 @@ int main(void){ //Função main
     rando();
     return 0;
 }
-//Beta criada por YagoSP 15/01/2022 (01:04)
+//Alfa criada por YagoSP 15/01/2022 (01:04)
