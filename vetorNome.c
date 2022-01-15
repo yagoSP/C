@@ -7,7 +7,13 @@ int main(void){
         "Samuel",
         "Jack",
         "James",
-        "Alice"
+        "Alice",
+        "Kirk", 
+        "Lars",
+        "Jason",
+        "Trujillo",
+        "Cliff",
+        "Edward"
     };
     printf("Digite o valor do bloco:\t");
     scanf("%d", &blc);
