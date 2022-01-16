@@ -5,7 +5,7 @@
 void rando(){
     int score, randomi, ask, qnt, count; //Declaração de variáveis;
     srand(time(NULL));
-    randomi = 10; //Valor simulando o rand();.
+    randomi = rand() % 10; //Valor simulando o rand();.
     score = 0; // Valor inicial do score.
     printf("Quantas vezes quer jogar:\t");
     scanf("%d", &qnt);
@@ -14,16 +14,16 @@ void rando(){
         scanf("%d", &ask);
         if(ask == randomi){
             score++;
+            printf("+1 score\n");
         }
         if(ask != randomi){ //if para a perca de pontos.
-            score = score -1;
+            score = score +1 -1;
         }
     }
     printf("%d", score);
     
 }
-
-int main(void){ //Função main
+int main(void){
     rando();
     return 0;
 }
