@@ -10,7 +10,7 @@ void rando(){
     printf("Quantas vezes quer jogar:\t");
     scanf("%d", &qnt);
     for(count=1; count<=qnt; count++){ //For para a quantidade de jogadas.
-        printf(">_:\t");
+        printf("Tente a sorte:\t");
         scanf("%d", &ask);
         if(ask == randomi){
             score++;
