@@ -1,5 +1,5 @@
 #include <stdio.h>
-main () {
+int main () {
   int b1, b2, b3, b4, som;
   float mf;
   printf("Digite o valor do primeiro bimestre:\t");
