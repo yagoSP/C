@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-main(){
+int main(){
 	int ndl, d;
 	setlocale(LC_ALL, "Portuguese");
 	printf("Digite a quantidade de lados que a forma tem:\t");
