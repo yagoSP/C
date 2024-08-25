@@ -36,3 +36,4 @@ int main(void){
 	// Final
 	return 0;
 }
+// Criado por YagoSP 24/08/2024 15:19
